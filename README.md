@@ -36,7 +36,7 @@ assign s=(~a&b&c&d);
 assign t=(b&~c&d);
 assign F1 = p|q|r|s|t;
 endmodule 
-
+```
 ## Timing Diagram
 ![Exp2 f1 timing](https://github.com/gayumee/Experiment--02-Implementation-of-combinational-logic-/assets/149037327/57c62cb8-1808-4660-b3d5-3816bff2b6f4)
 
