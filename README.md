@@ -25,7 +25,7 @@ Program to implement the given logic function and to verify its operations in qu
 Developed by: T. Gayathri 
 RegisterNumber:  212223100007
 */
-module f1(a,b,c,d,F1);
+```module f1(a,b,c,d,F1);
 input a,b,c,d;
 output F1;
 wure p,q,r,s,t;
@@ -35,7 +35,7 @@ assign r=(~b&~c&~d);
 assign s=(~a&b&c&d);
 assign t=(b&~c&d);
 assign F1 = p|q|r|s|t;
-endmodule 
+endmodule ```
 
 ## Timing Diagram
 ![Exp2 f1 timing](https://github.com/gayumee/Experiment--02-Implementation-of-combinational-logic-/assets/149037327/57c62cb8-1808-4660-b3d5-3816bff2b6f4)
